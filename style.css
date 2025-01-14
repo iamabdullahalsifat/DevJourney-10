@@ -46,6 +46,10 @@ button{
   background-color: transparent;
   cursor: pointer;
 }
+::selection{
+  background-color: var(--primary-color);
+  color: var(--body-color);
+}
 /* CSS Custom Properties */
 :root{
   --body-color: #ffffff;
@@ -131,10 +135,18 @@ body{
   text-align: center;
   margin-bottom: 40px;
 }
+.post_card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 .post_content{
   display: flex;
   background-color: var(--body-color);
   align-items: center;
+  gap: 50px;
   padding: 40px;
   border-radius: 16px;
 }
@@ -142,6 +154,9 @@ body{
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+.post_card_img img{
+  width: 100%;
 }
 .post_card_button{
   align-self: flex-start;
@@ -167,5 +182,17 @@ body{
   }
   .banner_img{
     width: 40%;
+  }
+}
+@media (max-width: 768px){
+  /* post_section */
+  .post_section{
+    padding: 20px;
+  }
+  .post_content{
+    flex-direction: column;
+  }
+  .post_reverse{
+    flex-direction: column-reverse;
   }
 }
