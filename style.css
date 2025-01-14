@@ -1,0 +1,13 @@
+/* Developer - abdullahalsifat.com */
+/* Google Font */
+@font-face {
+  font-family: 'first';
+  src: url('./fonts/Exo2-Regular.ttf') format('truetype');
+}
+/* Default Setting */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'first', sans-serif;
+}
