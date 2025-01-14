@@ -304,6 +304,12 @@ body{
   border: none;
   outline: none;
 }
+.footer{
+  text-align: center;
+  background-color: var(--footer-bg);
+  padding: 30px 20px;
+  font-size: 20px;
+}
 /* =====( Media Query )===== */
 @media (max-width: 768px){
   /* post_section */
