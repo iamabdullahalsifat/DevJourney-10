@@ -59,6 +59,7 @@ button{
   --box2: #f2f6fe;
   --box3: #fffdf2;
   --text-color: #565a63;
+  --border-color: #e2dbdb;
 }
 body{
   background-color: var(--body-color);
@@ -134,6 +135,7 @@ body{
 .post_dis{
   text-align: center;
   margin-bottom: 40px;
+  font-size: 16px;
 }
 .post_card{
   display: flex;
@@ -166,6 +168,31 @@ body{
   border-radius: 8px;
   font-size: 16px;
 }
+/* Video Section */
+.video_section{
+  margin: 50px 0;
+}
+.video_section_hading{
+  text-align: center;
+}
+.video_section_dis{
+  margin: 20px auto;
+  text-align: center;
+  max-width: 800px;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.video_iframe{
+  text-align: center;
+  background-color: var(--body-color);
+  border: 1px solid var(--border-color);
+  border-radius: 25px;
+  padding: 20px;
+}
+.video_iframe iframe{
+  border-radius: 16px;
+  width: 100%;
+}
 /* =====( Media Query )===== */
 @media (max-width: 576px){
   /* Nav Bar */
@@ -182,6 +209,10 @@ body{
   }
   .banner_img{
     width: 40%;
+  }
+  /* Video Section */
+  .video_iframe iframe{
+    height: 250px;
   }
 }
 @media (max-width: 768px){
