@@ -60,7 +60,8 @@ body{
   background-color: var(--body-color);
 }
 /* =====( Header )====== */
-.header{
+/* Nav */
+.nav_bar{
   max-width: 1200px;
   margin: auto;
   padding: 30px 20px;
@@ -68,7 +69,6 @@ body{
   justify-content: space-between;
   align-items: center;
 }
-/* Nav */
 .nav_button{
   border: 1px solid var(--primary-color);
   border-radius: 8px;
