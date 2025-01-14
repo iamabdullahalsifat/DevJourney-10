@@ -59,7 +59,7 @@ button{
 body{
   background-color: var(--body-color);
 }
-/* Header */
+/* =====( Header )====== */
 .header{
   max-width: 1200px;
   margin: auto;
@@ -68,9 +68,15 @@ body{
   justify-content: space-between;
   align-items: center;
 }
+/* Nav */
 .nav_button{
   border: 1px solid var(--primary-color);
   border-radius: 8px;
   padding: 8px 20px;
   font-size: 20px;
+}
+.nav_button:hover{
+  background-color: var(--primary-color);
+  color: var(--body-color);
+  transition: 0.3s ease-in-out
 }
